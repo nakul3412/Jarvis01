@@ -1,0 +1,52 @@
+{
+
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":["hello sir","wake up","hello jarvis"],
+            "responses":["hello sir","yes sir"]
+        },
+        {
+            "tag":"bye",
+            "patterns":["bye jarvis","okay bye","goodbye jarvis","goodbye jarvis","close"],
+            "responses":["ok sir","bye sir"]
+        },
+        {
+            "tag":"health",
+            "patterns":["how are you","how are you jarvis "],
+            "responses":["i am fine sir","cool","Like you","Are you fine ? i am fine"]
+
+        },
+        {
+            "tag":"identify",
+            "patterns":["your name","what is your name ","who are you","what are you"],
+            "responses":["jarvis","i am jarvis","An AI Assistance"]
+
+        },
+        {
+            "tag":"date",
+            "patterns":["today date","date ","jarvis what is date","jarvis what is today date"],
+            "responses":["date"]
+
+        },
+        {
+            "tag":"wheather",
+            "patterns":["tell me about wheather forcasting","tell me about wheather ","give me wheather result","give me wheather report","wheather"],
+            "responses":["wheather"]
+
+        },
+        {
+            "tag":"password",
+            "patterns":["jarvis create a password for me","can you make password for me","jarvis create password","password","please jarvis create password"],
+            "responses":["password"]
+
+        },
+        {
+            "tag":"wish",
+            "patterns":["thankyou jarvis","nice jarvis","thank you jarvis","thankyou","thank you"],
+            "responses":["welcome sir"]
+
+        }
+
+    ]
+}
